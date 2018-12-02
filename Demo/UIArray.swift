@@ -21,3 +21,19 @@ public extension Array where Element: Equatable {
         return elements.compactMap { remove(element: $0) }
     }
 }
+
+public extension Array where Element: Hashable {
+    public mutating func unify() {
+        self = unified()
+    }
+}
+
+public extension Collection where Element: Hashable {
+    public func unified() -> [Element] {
+        return reduce(into: []) {
+            if !$0.contains($1) {
+                $0.append($1)
+            }
+        }
+    }
+}
