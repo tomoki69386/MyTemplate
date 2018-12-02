@@ -15,7 +15,8 @@
 		B725B71821B3722D00AF4E3C /* SwipeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B71721B3722D00AF4E3C /* SwipeBack.swift */; };
 		B725B71B21B372CE00AF4E3C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B725B71A21B372CE00AF4E3C /* Info.plist */; };
 		B725B71D21B3751400AF4E3C /* ClassNameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B71C21B3751400AF4E3C /* ClassNameProtocol.swift */; };
-		B725B71F21B376C900AF4E3C /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B71E21B376C900AF4E3C /* UITableViewExtension.swift */; };
+		B725B71F21B376C900AF4E3C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B71E21B376C900AF4E3C /* UITableView.swift */; };
+		B725B72121B3770700AF4E3C /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72021B3770700AF4E3C /* UICollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +31,8 @@
 		B725B71921B372CE00AF4E3C /* MyTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTemplate.h; path = ../MyTemplate/MyTemplate.h; sourceTree = "<group>"; };
 		B725B71A21B372CE00AF4E3C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../MyTemplate/Info.plist; sourceTree = "<group>"; };
 		B725B71C21B3751400AF4E3C /* ClassNameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNameProtocol.swift; sourceTree = "<group>"; };
-		B725B71E21B376C900AF4E3C /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		B725B71E21B376C900AF4E3C /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		B725B72021B3770700AF4E3C /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,8 @@
 			children = (
 				B725B71721B3722D00AF4E3C /* SwipeBack.swift */,
 				B725B71C21B3751400AF4E3C /* ClassNameProtocol.swift */,
-				B725B71E21B376C900AF4E3C /* UITableViewExtension.swift */,
+				B725B71E21B376C900AF4E3C /* UITableView.swift */,
+				B725B72021B3770700AF4E3C /* UICollectionView.swift */,
 				B725B71921B372CE00AF4E3C /* MyTemplate.h */,
 				B725B71A21B372CE00AF4E3C /* Info.plist */,
 			);
@@ -158,8 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B725B72121B3770700AF4E3C /* UICollectionView.swift in Sources */,
 				B725B71821B3722D00AF4E3C /* SwipeBack.swift in Sources */,
-				B725B71F21B376C900AF4E3C /* UITableViewExtension.swift in Sources */,
+				B725B71F21B376C900AF4E3C /* UITableView.swift in Sources */,
 				B725B70321B3714D00AF4E3C /* ViewController.swift in Sources */,
 				B725B70121B3714D00AF4E3C /* AppDelegate.swift in Sources */,
 				B725B71D21B3751400AF4E3C /* ClassNameProtocol.swift in Sources */,
