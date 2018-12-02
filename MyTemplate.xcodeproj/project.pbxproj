@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		B725B6EE21B3710200AF4E3C /* MyTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = B725B6EC21B3710200AF4E3C /* MyTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B725B71321B3719900AF4E3C /* SwipeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B71221B3719900AF4E3C /* SwipeBack.swift */; };
+		B725B73121B37E4200AF4E3C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72A21B37E4100AF4E3C /* UIView.swift */; };
+		B725B73221B37E4200AF4E3C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72B21B37E4200AF4E3C /* String.swift */; };
+		B725B73321B37E4200AF4E3C /* ClassNameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72C21B37E4200AF4E3C /* ClassNameProtocol.swift */; };
+		B725B73421B37E4200AF4E3C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72D21B37E4200AF4E3C /* Array.swift */; };
+		B725B73521B37E4200AF4E3C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72E21B37E4200AF4E3C /* UITableView.swift */; };
+		B725B73621B37E4200AF4E3C /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72F21B37E4200AF4E3C /* UICollectionView.swift */; };
+		B725B73721B37E4200AF4E3C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B73021B37E4200AF4E3C /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +23,13 @@
 		B725B6EC21B3710200AF4E3C /* MyTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTemplate.h; sourceTree = "<group>"; };
 		B725B6ED21B3710200AF4E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B725B71221B3719900AF4E3C /* SwipeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeBack.swift; sourceTree = "<group>"; };
+		B725B72A21B37E4100AF4E3C /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B725B72B21B37E4200AF4E3C /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B725B72C21B37E4200AF4E3C /* ClassNameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNameProtocol.swift; sourceTree = "<group>"; };
+		B725B72D21B37E4200AF4E3C /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		B725B72E21B37E4200AF4E3C /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		B725B72F21B37E4200AF4E3C /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		B725B73021B37E4200AF4E3C /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,13 @@
 				B725B6EC21B3710200AF4E3C /* MyTemplate.h */,
 				B725B6ED21B3710200AF4E3C /* Info.plist */,
 				B725B71221B3719900AF4E3C /* SwipeBack.swift */,
+				B725B72D21B37E4200AF4E3C /* Array.swift */,
+				B725B72C21B37E4200AF4E3C /* ClassNameProtocol.swift */,
+				B725B72B21B37E4200AF4E3C /* String.swift */,
+				B725B72F21B37E4200AF4E3C /* UICollectionView.swift */,
+				B725B73021B37E4200AF4E3C /* UIColor.swift */,
+				B725B72E21B37E4200AF4E3C /* UITableView.swift */,
+				B725B72A21B37E4100AF4E3C /* UIView.swift */,
 			);
 			path = MyTemplate;
 			sourceTree = "<group>";
@@ -134,7 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B725B73221B37E4200AF4E3C /* String.swift in Sources */,
+				B725B73421B37E4200AF4E3C /* Array.swift in Sources */,
+				B725B73621B37E4200AF4E3C /* UICollectionView.swift in Sources */,
+				B725B73121B37E4200AF4E3C /* UIView.swift in Sources */,
 				B725B71321B3719900AF4E3C /* SwipeBack.swift in Sources */,
+				B725B73721B37E4200AF4E3C /* UIColor.swift in Sources */,
+				B725B73321B37E4200AF4E3C /* ClassNameProtocol.swift in Sources */,
+				B725B73521B37E4200AF4E3C /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
