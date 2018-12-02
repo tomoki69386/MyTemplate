@@ -19,6 +19,7 @@
 		B725B72121B3770700AF4E3C /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72021B3770700AF4E3C /* UICollectionView.swift */; };
 		B725B72321B3778900AF4E3C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72221B3778900AF4E3C /* UIView.swift */; };
 		B725B72521B3780F00AF4E3C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72421B3780F00AF4E3C /* UIColor.swift */; };
+		B725B72721B378A900AF4E3C /* UIArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72621B378A900AF4E3C /* UIArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		B725B72021B3770700AF4E3C /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		B725B72221B3778900AF4E3C /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		B725B72421B3780F00AF4E3C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B725B72621B378A900AF4E3C /* UIArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				B725B72021B3770700AF4E3C /* UICollectionView.swift */,
 				B725B72221B3778900AF4E3C /* UIView.swift */,
 				B725B72421B3780F00AF4E3C /* UIColor.swift */,
+				B725B72621B378A900AF4E3C /* UIArray.swift */,
 				B725B71921B372CE00AF4E3C /* MyTemplate.h */,
 				B725B71A21B372CE00AF4E3C /* Info.plist */,
 			);
@@ -173,6 +176,7 @@
 				B725B72321B3778900AF4E3C /* UIView.swift in Sources */,
 				B725B70321B3714D00AF4E3C /* ViewController.swift in Sources */,
 				B725B72521B3780F00AF4E3C /* UIColor.swift in Sources */,
+				B725B72721B378A900AF4E3C /* UIArray.swift in Sources */,
 				B725B70121B3714D00AF4E3C /* AppDelegate.swift in Sources */,
 				B725B71D21B3751400AF4E3C /* ClassNameProtocol.swift in Sources */,
 			);
