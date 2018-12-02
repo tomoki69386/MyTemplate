@@ -17,6 +17,7 @@
 		B725B73621B37E4200AF4E3C /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72F21B37E4200AF4E3C /* UICollectionView.swift */; };
 		B725B73721B37E4200AF4E3C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B73021B37E4200AF4E3C /* UIColor.swift */; };
 		B75F1B7621B37F450099B244 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B725B6ED21B3710200AF4E3C /* Info.plist */; };
+		B75F1B7921B380000099B244 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75F1B7821B380000099B244 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B725B72E21B37E4200AF4E3C /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		B725B72F21B37E4200AF4E3C /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		B725B73021B37E4200AF4E3C /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B75F1B7821B380000099B244 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75F1B7921B380000099B244 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +52,7 @@
 			children = (
 				B725B6EB21B3710200AF4E3C /* MyTemplate */,
 				B725B6EA21B3710200AF4E3C /* Products */,
+				B75F1B7721B380000099B244 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +79,14 @@
 				B725B72A21B37E4100AF4E3C /* UIView.swift */,
 			);
 			path = MyTemplate;
+			sourceTree = "<group>";
+		};
+		B75F1B7721B380000099B244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B75F1B7821B380000099B244 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
