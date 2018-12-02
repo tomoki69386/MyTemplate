@@ -80,3 +80,16 @@ array.unify() // [1, 2, 3, 4]
 
 
 
+## String
+
+文字列からURLを作成/文字列リテラルからURLを生成
+
+```swift
+if let url = "https://example.com".url {
+}
+
+let url: URL = "https://example.com
+```
+
+
+
