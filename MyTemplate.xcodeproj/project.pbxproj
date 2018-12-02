@@ -16,6 +16,7 @@
 		B725B73521B37E4200AF4E3C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72E21B37E4200AF4E3C /* UITableView.swift */; };
 		B725B73621B37E4200AF4E3C /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B72F21B37E4200AF4E3C /* UICollectionView.swift */; };
 		B725B73721B37E4200AF4E3C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B725B73021B37E4200AF4E3C /* UIColor.swift */; };
+		B75F1B7621B37F450099B244 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B725B6ED21B3710200AF4E3C /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75F1B7621B37F450099B244 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
