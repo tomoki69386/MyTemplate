@@ -46,3 +46,16 @@ ViewをsuperViewと同じ大きさにする
 superView.addSubview(view)
 view.fillSuperview()
 ```
+
+
+
+## UIColor
+
+16進数でUIColorの設定
+
+```swift
+let color = UIColor(hex: 0xAABBCC)
+```
+
+
+
