@@ -69,3 +69,14 @@ array.remove(element: "foo")
 print(array) //=> ["bar"]
 ```
 
+
+
+配列から同一の値を削除
+
+```swift
+let array = [1, 2, 3, 3, 2, 1, 4]
+array.unify() // [1, 2, 3, 4]
+```
+
+
+
