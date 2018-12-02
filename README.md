@@ -59,3 +59,13 @@ let color = UIColor(hex: 0xAABBCC)
 
 
 
+## Array
+
+配列で検索して削除
+
+```swift
+let array = ["foo", "bar"]
+array.remove(element: "foo")
+print(array) //=> ["bar"]
+```
+
