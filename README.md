@@ -2,7 +2,18 @@
 
 ## クラス名の取得
 
-```swift
+```usage.swift
 UIView.className //=> "UIView"
 UILabel().className //=> "UILabel"
+```
+
+
+
+## UITableView
+
+```swift
+tableView.register(cellType: MyCell.self)
+tableView.register(cellTypes: [MyCell1.self, MyCell2.self])
+
+let cell = tableView.dequeueReusableCell(with: MyCell.self, for: indexPath)
 ```
